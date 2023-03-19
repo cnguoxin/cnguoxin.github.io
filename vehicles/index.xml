@@ -6,25 +6,37 @@
     <description>Recent content in Vehicles on @Guoxin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Mar 2023 12:54:37 +0800</lastBuildDate><atom:link href="http://example.org/vehicles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 16:36:31 +0800</lastBuildDate><atom:link href="http://example.org/vehicles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【汽车电子】ECU</title>
+      <link>http://example.org/vehicles/%E6%B1%BD%E8%BD%A6%E7%94%B5%E5%AD%90ecu/</link>
+      <pubDate>Sun, 19 Mar 2023 16:36:31 +0800</pubDate>
+      
+      <guid>http://example.org/vehicles/%E6%B1%BD%E8%BD%A6%E7%94%B5%E5%AD%90ecu/</guid>
+      <description>ECU，Electronic Control Unit，电子控制单元，是汽车电子系统种用来控制电气系统、电子系统以及汽车子系统的嵌入式系统。
+ECU 由 MCU、输入电路、输出电路、A/D 转换器和其他部分组成。
+输入电路 ECU 获取传感器等部件的信号，首先进入输入电路。对于模拟信号，去除杂波干扰、将小信号放大；对于数字信号，进行缓冲后直接与 MCU 或 I/O 拓展电路连接。 A/D 转换器 输入给 ECU 的信号主要有两种：模拟信号和数字信号。信号的形态不同，ECU 的处理方式也不同。数字信号直接交给 MCU 进行处理计算，而模拟信号则需要通过A/D 转换器（模拟/数字转换器）转换成数字信号后才传入 MCU。 输出电路 MCU 输出的是数字信号，而且电流很小，一般不能直接驱动执行器工作。通过输出电路，将输出信号放大，提供足够的驱动电流。 MCU（micro controller） MCU 是 ECU 和核心部分，运行这嵌入式软件，接收车内其他部件的信号，进行运算处理，将处理结果输出给车内的其他部件，实现对汽车的控制和用户的交互。 MCU 运行的软件大致分为三个层次：
+ASW：application software，功能。执行某项功能。例如控制侧窗。 BSW：basic software，底软。处理底层信号。类似于操作系统。 RTE：run time environment，运行时环境。处于 BSW 和 ASW 中间层，简化底软的工作，将信号高效准确的提供给 ASW 的功能去使用，减少数据重复计算。 </description>
+    </item>
+    
     <item>
       <title>【汽车电子】现代汽车EE系统初识</title>
       <link>http://example.org/vehicles/%E6%B1%BD%E8%BD%A6%E7%94%B5%E5%AD%90%E7%8E%B0%E4%BB%A3%E6%B1%BD%E8%BD%A6ee%E7%B3%BB%E7%BB%9F%E5%88%9D%E8%AF%86/</link>
       <pubDate>Sat, 18 Mar 2023 12:54:37 +0800</pubDate>
       
       <guid>http://example.org/vehicles/%E6%B1%BD%E8%BD%A6%E7%94%B5%E5%AD%90%E7%8E%B0%E4%BB%A3%E6%B1%BD%E8%BD%A6ee%E7%B3%BB%E7%BB%9F%E5%88%9D%E8%AF%86/</guid>
-      <description>历史 在1970s之前，大部分车辆很少有电子电气组件，通常只有启动装置、车灯和点火系统。
-后来，汽车制造商引入小型电子系统，例如：无钥匙进入系统。这些小型电子系统使用的是ECU（electronic control units，电子控制单元），ECU可以进行数学计算和逻辑控制。
-连接 ECU通过线束连接传感器/电机/其他执行器，例如灯/喇叭等，从而提供各种功能。但每个传感器/执行器/连接器/线束都会增加汽车的成本和重量。
-为了降低成本，人们考虑将多个ECU连接起来，通过分享数据，实现更多的特性和功能。无须为每个需要分享数据单独安装一个导线，而是ECU通过网络来发送和接受数据。
-更多可能 在1980s，相关的排放法规出台，规定ECU必须检测并报告可能引起的过度排放的问题。
-OBD（on-board diagnostics），诊断是ECU的工作之一。但今日的诊断不再局限于OBD，汽车上所有的电子部件都有诊断。例如，中控锁系统通过诊断检测某个门锁是否正常工作，刹车系统通过诊断检测车轮是否正常转动，等等。
-为了降低成本，汽车制造商开始寻找在不同但相识的车辆上使用同一个ECU的方法。通过提高采购量来降低采购成本。
-这就是标定（calibration）或调教概念出现的原因。通过对ECU进行微小的调整， 使得这个ECU可以在不同的车辆上工作。所以标定工具和ECU内置的标定能力被用来实现这一目的。
-现代汽车的EE系统 随着计算机科学的进步，ECU也从最早的单核/简单进程/8位机，到今天普遍使用的多核32位处理器。
+      <description>历史 在 1970s 之前，大部分车辆很少有电子电气组件，通常只有启动装置、车灯和点火系统。
+后来，汽车制造商引入小型电子系统，例如：无钥匙进入系统。这些小型电子系统使用的是[[【汽车电子】ECU |ECU]] （electronic control units，电子控制单元），ECU 可以进行数学计算和逻辑控制。
+连接 ECU 通过线束连接传感器/电机/其他执行器，例如灯/喇叭等，从而提供各种功能。但每个传感器/执行器/连接器/线束都会增加汽车的成本和重量。
+为了降低成本，人们考虑将多个 ECU 连接起来，通过分享数据，实现更多的特性和功能。无须为每个需要分享数据单独安装一个导线，而是 ECU 通过网络来发送和接受数据。
+更多可能 在 1980s，相关的排放法规出台，规定 ECU 必须检测并报告可能引起的过度排放的问题。
+OBD（on-board diagnostics），诊断是 ECU 的工作之一。但今日的诊断不再局限于 OBD，汽车上所有的电子部件都有诊断。例如，中控锁系统通过诊断检测某个门锁是否正常工作，刹车系统通过诊断检测车轮是否正常转动，等等。
+为了降低成本，汽车制造商开始寻找在不同但相识的车辆上使用同一个 ECU 的方法。通过提高采购量来降低采购成本。
+这就是标定（calibration）或调教概念出现的原因。通过对 ECU 进行微小的调整， 使得这个 ECU 可以在不同的车辆上工作。所以标定工具和 ECU 内置的标定能力被用来实现这一目的。
+现代汽车的 EE 系统 随着计算机科学的进步，ECU 也从最早的单核/简单进程/8 位机，到今天普遍使用的多核 32 位处理器。
 随着计算能力的提升，人们想把诸如人工智能之类的功能添加到车辆里，从而处理视频/雷达/激光雷达数据，感知周围环境，进行判断和处理。
-车辆需要和互联网与服务器进行通信，例如获取gps信号等。通过大量汽车与服务器通信，服务器可以计算并自动告诉车辆如何避开交通拥堵等等。这意味着车辆就是网络的一部分。
-现代汽车EE系统包含了超过100种以上的ECU，大量的电子元件和信号。要开发这一切，需要管理好成千上万个不见，确保它们正确的组合在一起，并且能够被维护，需要确保出现问题的时候能够被修好。</description>
+车辆需要和互联网与服务器进行通信，例如获取 gps 信号等。通过大量汽车与服务器通信，服务器可以计算并自动告诉车辆如何避开交通拥堵等等。这意味着车辆就是网络的一部分。
+现代汽车 EE 系统包含了超过 100 种以上的 ECU，大量的电子元件和信号。要开发这一切，需要管理好成千上万个不见，确保它们正确的组合在一起，并且能够被维护，需要确保出现问题的时候能够被修好。</description>
     </item>
     
   </channel>
