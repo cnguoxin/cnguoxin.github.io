@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/finance/%E6%97%A5%E6%9C%AC%E8%9C%A1%E7%83%9B%E6%8A%80%E6%9C%AF%E5%88%9D%E8%AF%86/</loc>
+    <lastmod>2023-03-25T10:15:58+08:00</lastmod>
+  </url><url>
+    <loc>http://example.org/finance/</loc>
+    <lastmod>2023-03-25T10:15:58+08:00</lastmod>
+  </url><url>
     <loc>http://example.org/vehicles/%E6%B1%BD%E8%BD%A6%E7%94%B5%E5%AD%90ecu/</loc>
     <lastmod>2023-03-19T16:36:31+08:00</lastmod>
   </url><url>
