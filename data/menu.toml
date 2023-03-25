@@ -22,7 +22,17 @@ title = "posts by category"
   show_more_text = "See more posts..."
   show_more_url = "vehicles"
 
-
+[[entries.entries]]
+  title = "finance"
+  url = "finance"
+  
+  [entries.entries.post_list]
+  section = "finance"
+  limit = 2
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "finance"
+  
 [[entries]]
 title = "About"
 
